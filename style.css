@@ -1,5 +1,6 @@
 body {
     background: #110011;
+    color: limegreen;
 }
 @font-face {
     font-family: "DS-Digital";
@@ -19,9 +20,22 @@ div {
 
 h1 {
     font-family: "DS-Digital";
-    color: limegreen;
     font-size: 10rem;
     text-align: center;   
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "DS-Digital";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.date .item {
+    padding: 0 10px;
 }
 
 /* Desktop First approach */
@@ -31,7 +45,5 @@ h1 {
         color: rgb(250, 250, 250);
         text-align: center; 
     }
-
-
 } 
 
